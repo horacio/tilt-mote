@@ -24,6 +24,22 @@ template = Tilt.new('dashboard.mote')
 template.render(nil, dashboard: @dashboard)
 ```
 
+Cuba plugin
+-----------
+
+There is a [Cuba](https://github.com/soveran/cuba) minimal plugin you could use.
+
+```
+require 'cuba'
+require 'cuba/render'
+require 'tilt/mote'
+
+Cuba.plugin Cuba::Render
+Cuba.plugin MoteHelper
+```
+
+That's it! Now you can use your Mote templates in your Cuba application.
+
 Installation
 ------------
 
