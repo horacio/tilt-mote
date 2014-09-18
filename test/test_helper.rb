@@ -5,7 +5,7 @@ require File.expand_path("../lib/tilt/mote", File.dirname(__FILE__))
 require File.expand_path("../lib/cuba/mote", File.dirname(__FILE__))
 
 Cuba.plugin(Cuba::Render)
-Cuba.plugin(Mout::Render)
+Cuba.plugin(MoteHelper)
 
 Cuba.settings[:render][:views] = "./test/views"
 
