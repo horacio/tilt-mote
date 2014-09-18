@@ -29,7 +29,7 @@ Cuba plugin
 
 There is a [Cuba](https://github.com/soveran/cuba) minimal plugin you could use.
 
-```
+```ruby
 require 'cuba'
 require 'cuba/render'
 require 'tilt/mote'
