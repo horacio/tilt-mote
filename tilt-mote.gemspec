@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.version       = "0.0.1"
   spec.authors       = ["Horacio Bertorello"]
   spec.email         = ["syrii@msn.com"]
-  spec.summary       = "User Mote templates with Tilt."
+  spec.summary       = "Use Mote templates with Tilt."
   spec.homepage      = "https://github.com/svankmajer/tilt-mote"
   spec.license       = "MIT"
 
